@@ -1,0 +1,13 @@
+.cover {
+  margin: 92px auto auto 92px;
+}
+@media screen and (max-width: 425px) {
+  .cover {
+  margin: 97px auto 66px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__link {
+  margin: 88px auto 90px;
+  }
+}

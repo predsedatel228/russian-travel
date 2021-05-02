@@ -1,0 +1,8 @@
+.place__website {
+  grid-area: website;
+  outline: 1px solid #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+}

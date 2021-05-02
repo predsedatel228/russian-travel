@@ -1,0 +1,32 @@
+.intro {
+  padding-top: 92px;
+  outline: 1px solid #666;
+    max-width: 984px; 
+  margin:auto;
+}
+@media screen and (max-width:1024px) {
+.intro {
+  max-width: 928px;
+}
+}
+@media screen and (max-width : 768px) {
+
+  .intro {
+      max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    max-width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: calc(100% - 16px);
+    font-family: Inter;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
