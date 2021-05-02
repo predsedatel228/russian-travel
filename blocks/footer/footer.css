@@ -1,15 +1,15 @@
 footer {
   padding: 94px 48px 24px 24px;
   padding-top: 94px;
-  display: flex;    justify-content: space-between;
-  width: calc(100%-96px);
-  }
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 96px);
+}
 @media screen  and (max-width : 950px) {
   .footer {
     max-width: calc(100% - 46px);
   }
 }
-  
   
 @media screen and (max-width : 768px) {
   .footer {
