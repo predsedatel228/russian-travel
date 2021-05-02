@@ -5,13 +5,13 @@ footer {
   justify-content: space-between;
   width: calc(100% - 96px);
 }
-@media screen  and (max-width : 950px) {
+@media screen  and (max-width: 950px) {
   .footer {
     max-width: calc(100% - 46px);
   }
 }
   
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .footer {
     max-width: calc(100% - 46px);
     }
