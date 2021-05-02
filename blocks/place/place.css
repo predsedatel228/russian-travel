@@ -6,7 +6,6 @@
   grid-template-areas: 
   "title website"
   "image paragraph";
-  outline: 1px solid #666;
 }
 @media screen and (max-width:1024px) {
   .place {
