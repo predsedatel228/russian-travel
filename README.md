@@ -1,6 +1,16 @@
 # Проект 3: Путешествие по России
 
-Ссылка на проект: https://github.com/predsedatel228/russian-travel.git
+Ссылка на проект: https://predsedatel228.github.io/russian-travel/
+Технологии, используемые в проекте:
+
+HTML
+
+CSS
+
+Flexbox
+
+Grid
+
 
 Выполнено в Яндекс.Практикуме.
 Автор: Егор Паневин

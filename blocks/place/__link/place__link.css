@@ -1,5 +1,4 @@
 .place__link {
-  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -7,4 +6,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
+}
+.place__link:hover {
+  opacity: 0.8;
 }

@@ -1,8 +1,8 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(1fr, max-content) minmax(min-content, max-content);
   max-width: 100%;
   margin: 92px auto 0 auto;
+  column-gap: 40px;
   grid-template-areas: 
   "title website"
   "image paragraph";
@@ -10,19 +10,21 @@
 @media screen and (max-width:1024px) {
   .place {
     max-width: 928px;
+    column-gap: 32px;
   }
 }
 @media screen and (max-width:768px) {
   .place {
-    grid-column-gap: 48px;
+    grid-column-gap: 28px;
     width: 100%;
   }
 }
-
 @media screen and (max-width: 660px) {
   .place {
     padding-top: 64px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

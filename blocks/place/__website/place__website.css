@@ -5,3 +5,14 @@
   justify-content: flex-end;
   
 }
+@media screen and (max-width: 660px) {
+  .place__website {
+    min-width: 340px;
+}
+@media screen and (max-width: 450px) {
+  .place__website {
+  font-size: 32px;
+  line-height: 35px;
+  min-width: 288px;
+  }
+}

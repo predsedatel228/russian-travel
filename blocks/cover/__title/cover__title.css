@@ -7,34 +7,13 @@
   text-align: center;
   align-self: center;
   margin: 0;
-  padding-top: 245px;
-  padding-bottom: 32px;
+  justify-content: center;
 }
-@media screen and (max-width: 768px) {
-  .cover__title {
-    font-family: Inter;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 76px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-top: 115px;
-    padding-bottom: 32px;
-  }
-}
+
 @media screen and (max-width: 450px) {
   .cover__title {
     max-width: 288px;
-    max-height: 70px;
-    font-family: Inter;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 900;
     line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-top: 33px;
-    padding-bottom: 16px;
   }
 }
