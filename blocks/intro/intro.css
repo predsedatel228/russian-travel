@@ -6,11 +6,16 @@
 @media screen and (max-width:1024px) {
   .intro {
     max-width: 928px;
+    padding-left: 48px;
+
   }
 }
 @media screen and (max-width: 768px) {
   .intro {
     max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto;
   }
 }
 @media screen and (max-width: 320px) {
@@ -18,5 +23,6 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
+    margin: auto;
   }
 }
