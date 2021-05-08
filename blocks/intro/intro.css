@@ -1,13 +1,12 @@
 .intro {
   padding-top: 92px;
   max-width: 984px;
-  margin:auto;
+  margin: auto;
 }
 @media screen and (max-width:1024px) {
   .intro {
     max-width: 928px;
     padding-left: 48px;
-
   }
 }
 @media screen and (max-width: 768px) {
@@ -15,14 +14,16 @@
     max-width: 720px;
     padding-left: 24px;
     padding-right: 24px;
-    margin: auto;
+    padding-top: 88px;
   }
 }
 @media screen and (max-width: 320px) {
   .intro {
+    padding-top: 64px;
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
