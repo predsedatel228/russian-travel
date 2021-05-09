@@ -9,7 +9,7 @@
     min-width: 340px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .place__website {
     font-size: 32px;
     line-height: 35px;

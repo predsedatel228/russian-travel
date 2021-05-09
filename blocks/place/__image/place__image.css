@@ -3,13 +3,13 @@
   height: 440px;
   margin-top: 48px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .place__image {
     width: 340px;
     height: 340px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .place__image {
     width: 320px;
     height: 320px;
